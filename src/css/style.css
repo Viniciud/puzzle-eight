@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.estado {
+  margin-top: 10px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+}
+
+.estado input {
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+
+.estado .line {
+  margin: 0;
+}
+
+.estado p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container_estados {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.botoes {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+}
+.infos {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.movements {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.movements > .btn {
+  width: 300px;
+}
+
+.resultado p {
+  text-align: center;
+}
+
+.title_movements {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resultado_movimentos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-mov {
+  padding: 10px 10px 0 10px;
+  font-size: 20px;
+}
+
+.res-linha > div {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+.res-linha {
+  display: flex;
+}
+.res-linha > .zero {
+  background: black;
+  color: black;
+  border: 2px solid green;
+}
+.res-mov > div:last-child {
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.buttons_group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.buttons_group > .item_button {
+  margin-right: 100px;
+}
