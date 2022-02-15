@@ -32,7 +32,7 @@ $(document).ready(function () {
         data2,
         el = $(this);
 
-      el.html("Aguarde...");
+      el.html("Aguarde a Resolução...");
 
       document.querySelector(".movimentos").innerHTML = "";
       document.querySelector(".nos").innerHTML = "";
@@ -57,7 +57,7 @@ $(document).ready(function () {
         data2,
         el = $(this);
 
-      el.html("Aguarde...");
+      el.html("Aguarde a Resolução...");
 
       document.querySelector(".movimentos").innerHTML = "";
       document.querySelector(".nos").innerHTML = "";
