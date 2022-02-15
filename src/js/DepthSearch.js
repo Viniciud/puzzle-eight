@@ -2,11 +2,11 @@ var found = null;
 
 function DepthSearchInit() {
   visitedArray = [];
+  newArray = [];
   nodes = [];
   iterations = 0;
   level = 0;
 
-  newArray = [];
   newArray[0] = initialState;
   newArray[1] = level;
   newArray[2] = null;
