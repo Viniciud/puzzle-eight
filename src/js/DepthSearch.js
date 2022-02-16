@@ -4,10 +4,10 @@ function DepthSearchInit() {
   visitedArray = [];
   newArray = [];
   nodes = [];
-  iterations = 0;
+  iteration = 0;
   level = 0;
 
-  newArray[0] = initialState;
+  newArray[0] = [...initialState];
   newArray[1] = level;
   newArray[2] = null;
   newArray[3] = null;
@@ -15,17 +15,13 @@ function DepthSearchInit() {
   nodes.push(newArray);
 
   do {
-    if (CompareArrays(newArray[0], finalState)) {
-      level = newArray[1];
-
-      return newArray;
-    }
     found = Depth(nodes[0]);
+    console.log("FOUND ", found);
     nodes.shift();
-
     iteration++;
-  } while (found === null);
+  } while (found == null);
 
+  console.log("FOUND");
   return found;
 }
 
